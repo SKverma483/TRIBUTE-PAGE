@@ -22,8 +22,7 @@
   font-family: "Rubik", sans-serif;
   line-height: 1;
   background-color: #dee2e6;
-  border: 5px solid black;
-            min-width:100vw;
+
   min-height: 100vh;
 }
 .content {
