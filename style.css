@@ -5,20 +5,27 @@
       FONT SIZE SYSTEM (px)
       10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
       */
-
+/* #087f5b main color */
+/* #343a40 grey color */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body {
-  
+/* body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   background-color: #dee2e6;
-}
+} */
 .container {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  background-color: #dee2e6;
+  border: 5px solid black;
+  min-height: 100vh;
+}
+.content {
   width: 1200px;
   margin: 100px auto;
 }
@@ -26,9 +33,6 @@ body {
   width: 300px;
   height: 250px;
   border-radius: 50%;
-}
-.main-pic:hover{
-            transform:scale(1.1);
 }
 .name {
   font-size: 52px;
@@ -63,6 +67,7 @@ h1 {
   font-size: 20px;
   line-height: 1.7;
   font-weight: 400;
+  text-align: justify;
   margin-bottom: 32px;
 }
 .middle-text-bio {
